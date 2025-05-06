@@ -18,7 +18,7 @@ export default function RotatingView() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % vendors.length);
-    }, 2000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [vendors]);
 
@@ -29,7 +29,6 @@ export default function RotatingView() {
   const vendor = vendors[index];
   return (
     <div className="fade-transition">
-      <h2 className="text-center mb-3">Mostrando información de: {vendor.vendor}</h2>
       <VendorPage vendor={vendor} />
     </div>
   );

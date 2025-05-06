@@ -25,7 +25,13 @@ export const Navbar = () => {
               <Link className="nav-link" to="/">Inicio</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/ranking">Ranking</Link>
+              <Link className="nav-link" to="/rankingGlobal">Ranking Global</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/ranking">Ranking x Tecnología</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/rankingInterno">Ranking x Vendor</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/rotating">Rotación</Link>

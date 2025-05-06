@@ -33,9 +33,9 @@ Este módulo devuelve los datos desde un JSON local tras un pequeño retardo par
 ## 📁 Estructura del Proyecto
 ```bash
 src/
-├── api/              # Simulación de backend (JSON + fetch)
-├── components/       # Componentes reutilizables (Navbar, Cards, Listas)
-├── pages/            # Vistas de la app: Home, Ranking, Vendor, Rotación
+├── api/              # Simulación de backend 
+├── components/       # Componentes reutilizables
+├── pages/            # Vistas de la app
 ├── routes/           # Configuración de rutas React Router
 ├── types/            # Definiciones de interfaces TypeScript
 ├── utils/            # Funciones auxiliares como formateo de fechas
@@ -63,7 +63,7 @@ src/
 
 - Código comentado y estructurado para legibilidad
 
-## 📦 .gitignore recomendado
+## 📦 .gitignore
 ```bash
 # dependencias
 node_modules/
