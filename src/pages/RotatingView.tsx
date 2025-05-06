@@ -1,3 +1,4 @@
+// 💡 Añadido efecto de transición fade entre vendors
 // Vista rotatoria que muestra cada pantalla embebida con título animado y vendor destacado
 import { useEffect, useState } from 'react';
 import HomePage from './HomePage';
@@ -16,13 +17,20 @@ export default function RotatingView() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % (2 + vendors.length));
+      setIndex((prev) => (prev + 1) % vendors.length);
     }, 2000);
     return () => clearInterval(interval);
   }, [vendors]);
 
-  const vendor = vendors[index - 2];
+  if (vendors.length === 0) return <div className="text-center">Cargando rotación...</div>;
+
+  // Mostrar solo vendors, sin Home ni Ranking
+
+  const vendor = vendors[index];
   return (
+    <div className="fade-transition">
+      <h2 className="text-center mb-3">Mostrando información de: {vendor.vendor}</h2>
       <VendorPage vendor={vendor} />
+    </div>
   );
 }

@@ -26,7 +26,7 @@ export default function VendorPage({ vendor: propVendor }: Props) {
     }
   }, [id, propVendor]);
 
-  if (!vendor) return <div className="text-center">Cargando vendor...</div>;
+  if (!vendor) return <div className="text-center">Cargando...</div>;
 
   return (
     <div className="card">
