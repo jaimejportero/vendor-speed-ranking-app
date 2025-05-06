@@ -19,7 +19,7 @@ export default function RankingPage() {
 
   return (
     <div>
-      <h1 className="mb-4">Ranking por Tecnología</h1>
+      <h1 className="mb-4">🏅 Ranking por Tecnología</h1>
       {technologies.map((tech) => (
         <div key={tech} className="mb-5">
           <h3 className="mb-3">{tech}</h3>

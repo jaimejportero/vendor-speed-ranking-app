@@ -1,4 +1,4 @@
-// src/pages/InternalRankingPage.tsx
+// Página que muestra ranking interno con estilos Bootstrap.
 import { useEffect, useState } from 'react';
 import { fetchVendors } from '../api/fetchVendors';
 import { Vendor } from '../types';

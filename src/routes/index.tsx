@@ -1,5 +1,5 @@
 // Configura las rutas de la aplicación con React Router.
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import RankingPage from '../pages/RankingPage';
 import VendorPage from '../pages/VendorPage';

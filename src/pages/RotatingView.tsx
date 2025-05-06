@@ -1,8 +1,5 @@
-// 💡 Añadido efecto de transición fade entre vendors
 // Vista rotatoria que muestra cada pantalla embebida con título animado y vendor destacado
 import { useEffect, useState } from 'react';
-import HomePage from './HomePage';
-import RankingPage from './RankingPage';
 import VendorPage from './VendorPage';
 import { Vendor } from '../types';
 import { fetchVendors } from '../api/fetchVendors';

@@ -17,7 +17,7 @@ export default function RankingPage() {
 
   return (
     <div>
-      <h1 className="mb-4">Ranking Global</h1>
+      <h1 className="mb-4">🏅 Ranking Global</h1>
       <ul className="list-group">
         {sorted.map((v) => (
           <li key={v.id} className="list-group-item d-flex justify-content-between align-items-center">
