@@ -8,10 +8,12 @@ Aplicación desarrollada con **React + TypeScript** para visualizar, comparar y 
 
 - ✅ Clasificación global de vendors por velocidad total
 - 📊 Ranking detallado por tecnología (2G, 3G, 4G, LTE, 5G)
+- 🧠 Ranking interno por tecnologías dentro de cada vendor (pantalla dedicada)
 - 🧾 Página individual para cada vendor con ficha técnica
 - 🔄 Vista rotatoria automática entre vendors
 - 💅 UI elegante y responsive con Bootstrap 5
-
+- 🧪 Tests unitarios para componentes clave y lógica de ordenación
+- 📁 Estructura modular y escalable con separación de responsabilidades
 ---
 
 ## 🚀 Cómo ejecutar el proyecto
