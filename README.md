@@ -44,24 +44,24 @@ src/
 └── README.md         # Documentación del proyecto
 ```
 ## 🛠 Tecnologías utilizadas
-React 18
+- React 18
 
-TypeScript
+- TypeScript
 
-React Router DOM
+- React Router DOM
 
-Bootstrap 5
+- Bootstrap 5
 
 ## 🧹 Buenas prácticas implementadas
-Separación clara entre lógica, presentación y rutas
+- Separación clara entre lógica, presentación y rutas
 
-Componentes reutilizables con props tipadas
+- Componentes reutilizables con props tipadas
 
-Simulación de backend para pruebas realistas
+- Simulación de backend para pruebas realistas
 
-Rutas centralizadas y fácilmente mantenibles
+- Rutas centralizadas y fácilmente mantenibles
 
-Código comentado y estructurado para legibilidad
+- Código comentado y estructurado para legibilidad
 
 ## 📦 .gitignore recomendado
 ```bash
